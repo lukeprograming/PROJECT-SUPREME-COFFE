@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+body{
+    min-width:300px ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1980px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+header{
+    background-color: rgb(50, 35, 15);
+    margin: auto;
+    width: 100%;
+    height:auto;
+    max-width: none;
+}
+.cabeçalho-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+.menu a{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: bisque;
+}
+.menu a:hover{
+    border-radius: 10px;
+    background-color: bisque;
+    color: rgb(50, 35, 15);
+}
+
+.menu ul li{
+    height: 200%;
+    list-style: none;
+}
+.menu ul{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.logo{
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    max-width: 25%;
+    width: 25%;
+}
+.search-bar{
+    max-width: 45%;
+    width: 45%;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25;
+    width: 25%;
+}
+input[type="search"]{
+    font-size: 90%;
+    padding: 1%;
+    background-color: bisque;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.input[type="search"]:active{
+    border-style: none;
+    outline: 0;
+}
+.barra-Inferior{
+    padding: 0.5%;
+    background-color: rgb(76, 53, 17);
+}
+.Nav-menu-2{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.Nav-menu-2 a{
+    transition: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+    color: bisque;
+    text-decoration: none;
+}
+
+.Nav-menu-2 a:hover{
+    transition: 0.4s;
+    background-color: rgb(246, 216, 171);
+    color: rgb(76, 53, 17);
+    border-radius: 50px;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.focus-offer{
+    padding: 2%;
+    border-radius: 50px;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.offer-1, .offer-2{
+    color: bisque;
+    background-color: rgb(52, 35, 10);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+.offer-1 img, .offer-2 img{
+    padding: 5%;
+}
+.offer-1 , .offer-2{
+    padding: 5%;
+}
+.offer-1{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.offer-2{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.ajustes-offer1-txt-img{
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.offer-1:hover, .offer-2:hover{
+    color: rgb(52, 35, 10);
+    background-color: bisque;
+    border-style: double;
+    cursor: pointer;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+.service-options {
+    max-width: 1880px;
+    max-height: 250px;
+    min-width: 300px;
+    min-width: 50px;
+    border-radius: 50px;
+    width: 80%;
+    background-color: whitesmoke;
+    margin: 2%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.service-options ul{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+.service-options li{
+    text-align: center;
+    list-style: none;
+}
+
+.Produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.Desmostacao{
+    max-width: 1980px;
+    background-color: rgb(50, 35, 15);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    gap: 5px;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+}
+.img {
+    border-radius: 50px;
+    padding: 2%;
+    width: 18%;
+    height: auto;
+}
+.img img{
+    max-width: 500px;
+    min-height: 440px;
+    min-height: 60px;
+    min-width: 60px;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 5px 0px 5px rgb(246, 216, 171);
+    transition: 1s;
+}
+
+.img img:hover{
+    cursor: pointer;
+    width: 100%;
+}
+.coffe-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.line-1{
+    max-width: 85%;
+    padding: 30px;
+    width: 75%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.colun{
+    background-color: rgb(246, 216, 171);
+    border-radius: 30px;
+    padding: 20px;
+    min-width: 20%;
+    margin: 2%;
+    width: 22%;
+    display: flex;
+    color: rgb(76, 53, 17);
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    transition: 1s;
+}
+.colun:hover {
+    background-color: rgb(76, 53, 17);
+    color: rgb(246, 216, 171);
+}
+
+.colun .Button{
+    display: flex;
+    justify-content: center;
+}
+.colun:hover .button-option{
+    background-color: rgb(246, 216, 171);
+    color: rgb(76, 53, 17);
+    cursor: pointer;
+}
+.colun img{
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+}
+.txt-colun{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.button-option{
+    background-color: rgb(76, 53, 17);
+    color: rgb(246, 216, 171);
+    border-style: dashed;
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
+@media(max-width: 1200px){
+    
+    html{
+        font-size: 50%;
+    }
+    .menu{
+        font-size: 80%;
+    }
+}
+@media(max-width: 1000px){
+    
+    html{
+        font-size: 40%;
+    }
+    .menu{
+        font-size: 70%;
+    }
+}
+
+@media(max-width: 750px){
+    body{
+        max-width: 100vh;
+    }
+    .offer{
+        width: 100%;
+    }
+    .offer h1{
+        width: 100%;
+    }
+    .offer-1{
+        width: 100%;
+    }
+    .offer-2 {
+        width: 100%;
+    }
+    .focus-offer{
+        width: 100%;
+    }
+    html{
+        font-size: 30%;
+    }
+    body img{
+        max-width: 100vh;
+    }
+    .menu ul li{
+        display: none;
+    }
+    .cabeçalho-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .one,.two, .three{
+        width: 100%;
+        height: 5px;
+        background-color: wheat;
+        margin: 7px auto;
+    }
+
+    .cabeçalho-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .offer{
+        width: 100vh;
+    }
+    .services{
+        width: 100vh;
+    }
+    .Desmostacao{
+        width: 100vh;
+    }
+    .main{
+        width: 100vh;
+    }
+    .offer{
+        max-width: 100vh;
+    }
+    .line-1{
+        max-width: 100vh;
+        display: flex;
+        flex: 1 1 100px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colun{
+        flex-wrap: wrap;
+        min-width: 1%;
+        width: 50%;
+    }
+    .menu-burger{
+        width: 40px;
+        height: 30px;
+    }
+    .Produtos{
+        max-width: 100vh;
+    }
+    .Buy-Port{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .coffe-buy{
+        align-items: center;
+    }
+    .search-bar{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+
+    html{
+        font-size: 30%;
+    }
+}
+
+@media(max-width: 300px){
+
+    html{
+        font-size: 15%;
+    }
+}
