@@ -1,0 +1,4 @@
+O Site principal é o Siet-Final, a pasta de Nome Site é o prjeto de numero 5 que por motivos de eu nao ter gostado e certas coisas no codigo e 
+na apresentação do site decide fazer outro prjoeto e entao veio o 6 que deu muito bus e o 7 que foi o site que eu finalizei 100% o site, 
+a unica coisa que falto foi o Footer mas como nao pensei em muita coisa para coloca alem de meu nome, numero de telefone e perfil do git hub decidi
+nao completa essa parte mas a area estar em aberto para adicionar cooisas futuras.
